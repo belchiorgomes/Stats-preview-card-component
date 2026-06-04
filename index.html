@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style/style.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -16,14 +18,36 @@
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <article class="container-box">
+    <figure>
+      <img src="images/image-header-mobile.jpg" alt="Mulheres trabalhando em um escritório com notebooks">
+    </figure>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+    <div class="container-main">
+      <div class="container-info">
+        <h1>Get <strong>insights</strong> that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+      </div>
+      <div class="stats-list">
+        <div class="stat-item">
+          <dt>10k+</dt>
+          <dd>companies</dd>
+        </div>
+        <div class="stat-item">
+          <dt>314</dt>
+          <dd>templates</dd>
+        </div>
+      
+        <div class="stat-item">
+          <dt>12m+</dt>
+          <dd>queries</dd>
+        </div>
+      </div>
+    </div>
+  </article>
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
